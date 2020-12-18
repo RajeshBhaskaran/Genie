@@ -1,5 +1,5 @@
 ## Script for complete build for FSL & BCM Legacy boards
-## @Rajesh.Bhaskaran@altran.com
+
 SERVERIP=$(ping -c 1 `hostname` | awk '{ print $3}' | grep 135)
 printf "Hope you know you are on the $SERVERIP server  -"
 if [[ "$SERVERIP" == "(135.249.56.14)" ]];
